@@ -25,21 +25,22 @@ function App() {
                                 <h1 className="text-2xl font-bold">
                                     Meet Talent bridge LK
                                 </h1>
-                                <p className="text-[0.6rem] font-light">
-                                    search for better internships or jobs and
+                                <h1 className="text-[0.6rem] font-light">
+                                    Search for better internships or jobs and
                                     learn to qualify
-                                </p>
+                                </h1>
                                 <div className="flex h-10 justify-center items-center gap-1 border border-amber-300">
                                     <input
                                         className="border border-gray-300/10 mt-3 rounded-full bg-gray-800 
                                     placeholder:text-[0.5rem] pl-3 pb-2"
                                         placeholder="Search for internships or jobs"
                                     />
-                                    <button className="mt-2 px-4 py-1 bg-white rounded-full text-sm font-medium hover:bg-gray-100 transition-colors">
-                                        <span className="text-black">
-                                            Search
-                                        </span>
-                                    </button>
+                                    <button className="mt-2 px-5 py-2 bg-white rounded-full text-base font-medium border border-gray-300 shadow-sm hover:bg-gray-100 hover:shadow-md transition-all duration-300 cursor-pointer w-48">
+                                      <span className="text-black">Search</span>
+                                     </button>
+
+
+                                   
                                 </div>
                             </div>
                         </div>
