@@ -22,25 +22,21 @@ function App() {
                         {/* top */}
                         <div className="flex-3  border-4 border-green-500">
                             <div className="flex flex-col justify-center items-center h-full">
-                                <h1 className="text-2xl font-bold">
-                                    Meet Talent bridge LK
+                                <h1 className="text-3xl md:text-4xl font-semibold mb-2">
+                                    Meet Talentbridge LK
                                 </h1>
-                                <h1 className="text-[0.6rem] font-light">
-                                    Search for better internships or jobs and
-                                    learn to qualify
-                                </h1>
-                                <div className="flex h-10 justify-center items-center gap-1 border border-amber-300">
+                                <p className="text-sm md:text-base text-gray-300 mb-6">
+                                    Search for better intern or job and learn to be qualified
+                                </p>
+                                <div className="flex justify-center items-center bg-white/10 backdrop-blur-md rounded-full p-1 border border-gray-500/30 w-full max-w-md">
                                     <input
-                                        className="border border-gray-300/10 mt-3 rounded-full bg-gray-800 
-                                    placeholder:text-[0.5rem] pl-3 pb-2"
-                                        placeholder="Search for internships or jobs"
+                                    type="text"
+                                    className="flex-grow bg-transparent text-white placeholder:text-gray-300 text-sm md:text-base pl-4 py-2 rounded-full focus:outline-none"
+                                    placeholder="Find any job or intern you want"
                                     />
-                                    <button className="mt-2 px-5 py-2 bg-white rounded-full text-base font-medium border border-gray-300 shadow-sm hover:bg-gray-100 hover:shadow-md transition-all duration-300 cursor-pointer w-48">
-                                      <span className="text-black">Search</span>
-                                     </button>
-
-
-                                   
+                                    <button className="bg-white text-black rounded-full px-6 py-2 font-medium text-sm hover:bg-gray-100 shadow-md transition-all duration-300">
+                                    Search
+                                    </button>
                                 </div>
                             </div>
                         </div>
